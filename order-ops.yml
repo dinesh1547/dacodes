@@ -20,9 +20,9 @@ spring:
 ---
 spring:
   datasource:
-    url: jdbc:mysql://52.74.198.94:3306/catalog_ops?autoReconnect=true&zeroDateTimeBehavior=convertToNull
-    username: tech_delhi
-    password: Think#3456
+    url: jdbc:mysql://localshost/inventory?autoReconnect=true&zeroDateTimeBehavior=convertToNull
+    username:root
+    password: root
 
     driver-class: com.mysql.jdbc.Driver
   
